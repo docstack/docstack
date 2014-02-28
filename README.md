@@ -33,7 +33,7 @@ Getting started on MacOS X
   
 2. Install Fig
 
-  http://orchardup.github.io/fig/
+  http://orchardup.github.io/fig/install.html
   
 3. Clone the docstack repo
 
