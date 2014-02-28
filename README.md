@@ -30,13 +30,16 @@ Getting started on MacOS X
 1. [Get Docker installed](http://docs.docker.io/en/latest/installation/mac/)
 2. [Install Fig](http://orchardup.github.io/fig/install.html)
 3. Clone the docstack repo
-
 ```
   git clone git@github.com:docstack/docstack.git
 ```
 
-4. Fig up
+4. Create a default fig.yml file
+```
+  cp fig-template.yml fig.yml
+```
 
+5. Fig up
 ```
   fig up
 ```
