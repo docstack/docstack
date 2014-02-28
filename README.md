@@ -23,3 +23,18 @@ Finally, the user uses the [Fig](http://orchardup.github.io/fig/) project to orc
 ```
 
 This will download the needed Docker images and fire them up on the user's machine.
+
+Getting started on MacOS X
+--------------------------
+
+1. Get Docker installed
+
+  http://docs.docker.io/en/latest/installation/mac/
+  
+2. Install Fig
+
+  http://orchardup.github.io/fig/
+  
+3. Clone the docstack repo
+
+  git clone git@github.com:docstack/docstack.git
