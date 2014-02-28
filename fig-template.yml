@@ -1,0 +1,8 @@
+apache:
+    build: apache
+mysql:
+    build: mysql
+postgres:
+    build: postgres
+rabbitmq:
+    build: rabbitmq
