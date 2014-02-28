@@ -14,7 +14,7 @@ We plan to address these issues by building a sytem that allows each project in 
 
 This is achieved by placing a /docstack directory in each project wishing to be part of docstack. In that directory is a Dockerfile containing the instructions for building a Docker image for the project (and any sudry required files). 
 
-Each of the repositories is then monitored by a Jenkins server. On every change, the Jenkins server will checkout the proejct, build a new Docker image and upload it to a repository. Over time, we plan to have Docker imags for latest as well as milestone and named OpenStack releases.
+Each of the repositories is then monitored by a Jenkins server. On every change, the Jenkins server will checkout the project, build a new Docker image and upload it to a repository. Over time, we plan to have Docker imags for latest as well as milestone and named OpenStack releases.
 
 Finally, the user uses the [Fig](http://orchardup.github.io/fig/) project to orchestrate their specific docstack set up. Fig defines the various Docker images needed (both projects and infrastructure). After checking out the docstack directory, the user can spin up a docstack by typing 
 
@@ -29,16 +29,24 @@ Getting started on MacOS X
 
 1. Get Docker installed
 
+```
   http://docs.docker.io/en/latest/installation/mac/
-  
+```
+
 2. Install Fig
 
+```
   http://orchardup.github.io/fig/install.html
-  
+```
+
 3. Clone the docstack repo
 
+```
   git clone git@github.com:docstack/docstack.git
+```
 
 4. Fig up
 
+```
   fig up
+```
