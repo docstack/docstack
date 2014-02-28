@@ -1,0 +1,16 @@
+keystone:
+    image: keystone
+    ports:
+        - 5000
+        - 35357
+    links:
+        - db
+
+db:
+    image: keystone-postgres
+
+mysql:
+    image: mysql
+
+rabbitmq:
+    image: rabbitmq
