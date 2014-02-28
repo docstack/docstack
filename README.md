@@ -12,7 +12,7 @@ Docstack is an experiment in replacing the current [devstack](http://devstack.or
 
 We plan to address these issues by building a sytem that allows each project in devstack to own the way in which it is deployed. Devstack then only needs to know where the project artifacts are to be able to add a project to a devstack cluster. 
 
-This is achieved by placing a /docstack directory in each project wishing to be part of docstack. In that directory is a Dockerfile containing the instructions for building a Docker image for the project (and any sudry required files). 
+This is achieved by placing a /docstack directory in each project wishing to be part of docstack. In that directory is a Dockerfile containing the instructions for building a Docker image for the project (and any sundry required files). 
 
 Each of the repositories is then monitored by a Jenkins server. On every change, the Jenkins server will checkout the project, build a new Docker image and upload it to a repository. Over time, we plan to have Docker imags for latest as well as milestone and named OpenStack releases.
 
@@ -27,18 +27,8 @@ This will download the needed Docker images and fire them up on the user's machi
 Getting started on MacOS X
 --------------------------
 
-1. Get Docker installed
-
-```
-  http://docs.docker.io/en/latest/installation/mac/
-```
-
-2. Install Fig
-
-```
-  http://orchardup.github.io/fig/install.html
-```
-
+1. [Get Docker installed](http://docs.docker.io/en/latest/installation/mac/)
+2. [Install Fig](http://orchardup.github.io/fig/install.html)
 3. Clone the docstack repo
 
 ```
