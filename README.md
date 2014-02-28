@@ -38,3 +38,7 @@ Getting started on MacOS X
 3. Clone the docstack repo
 
   git clone git@github.com:docstack/docstack.git
+
+4. Fig up
+
+  fig up
